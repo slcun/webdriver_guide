@@ -13,9 +13,12 @@
 
 
 	public class StartBrowser {
-
+		
 		public static void main(String[] args) {
+			//设置对应浏览器的驱动
+			System.setProperty("webdriver.chrome.driver", "E:/selenium/chromedriver.exe");
 			WebDriver dr = new ChromeDriver();
+			
 		}
 
 	}
